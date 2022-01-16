@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5, h6, p, button, input {
+    color: steelblue;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+}
+
+div {
+    display: flex;
+}
+
+input[type="text"] {
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 1px;
+    border-radius: 7px;
+    width: 100%;
+    min-width: 20px;
+    height: fit-content;
+    padding: 7px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+input[type="text"]:focus {
+    /* border-style: solid;
+    border-color: rgb(17, 106, 179);
+    border-width: 2px; */
+    outline: none !important;
+    border-color: steelblue;
+    box-shadow: 0 0 10px steelblue;
+}
+
+.weather-bordered-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: steelblue !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    margin: auto;
+    padding: 15px 20px 25px 20px;
+}
+
+.weather-border {
+    border-color: steelblue !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.weather-row-div {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.weather-button {
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    background-color: steelblue;
+    border-radius: 7px;
+    border-color: steelblue;
+    padding: 7px 5px;
+    width: 100%;
+}
+
+.weather-button:disabled {
+    background-color: lightgray;
+    border: none;
+}
+
+.weather-button:disabled:hover {
+    box-shadow: none;
+}
+
+.weather-button:hover {
+    box-shadow: 2px 2px 2px steelblue;
+}
+
+.weather-data-div {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    /* width: 33%; */
+    align-items: center;
+    border-color: steelblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.city-inner-div {
+    justify-content: center; 
+    align-items: center;
+}
+
